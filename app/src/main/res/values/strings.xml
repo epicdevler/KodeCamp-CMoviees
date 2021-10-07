@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CMovies</string>
+    <string name="fullNameErrorMsg">Please provide your full name</string>
+    <string name="userGreeting">Hello, %s</string>
+    <string name="selectMovieHint">Select movies from the categories below.
+        \n
+        Movies a sorted in alphabetic order.</string>
+</resources>
