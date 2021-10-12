@@ -10,10 +10,13 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CMovies">
         <activity
+            android:name=".MovieLists.MoviesList"
+            android:exported="true" />
+        <activity
             android:name=".MovieLists.MovieDetails"
             android:exported="true" />
         <activity
-            android:name=".MovieLists.MoviesList"
+            android:name=".MovieLists.MoviesOptionsList"
             android:exported="true" />
         <activity
             android:name=".Startup.AccountSetup"

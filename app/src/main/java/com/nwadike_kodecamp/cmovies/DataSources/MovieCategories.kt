@@ -2,7 +2,7 @@ package com.nwadike_kodecamp.cmovies.DataSources
 
 import com.nwadike_kodecamp.cmovies.Models.MoviesCategories
 
-class Categories {
+class MovieCategories {
     fun categories(): Array<MoviesCategories> {
         return arrayOf(
             MoviesCategories("A"),

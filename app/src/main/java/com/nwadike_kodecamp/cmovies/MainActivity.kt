@@ -4,7 +4,7 @@ import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import com.nwadike_kodecamp.cmovies.Adapters.MoviesCategoriesAdapter
-import com.nwadike_kodecamp.cmovies.DataSources.Categories
+import com.nwadike_kodecamp.cmovies.DataSources.MovieCategories
 import com.nwadike_kodecamp.cmovies.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -24,7 +24,6 @@ class MainActivity : AppCompatActivity() {
 
     private fun initializeUIElements() {
         binding.greetUser.text = getString(R.string.userGreeting, userFullName)
-
         initializeUIRecyclerView()
     }
 
@@ -33,7 +32,7 @@ class MainActivity : AppCompatActivity() {
         binding.movieCategoryRecycler.setHasFixedSize(false)
         binding.movieCategoryRecycler.layoutManager =
             LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false)
-        val adapter = MoviesCategoriesAdapter(Categories().categories(), 2)
+        val adapter = MoviesCategoriesAdapter(MovieCategories().categories(), 1)
         binding.movieCategoryRecycler.adapter = adapter;
     }
 

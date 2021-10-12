@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <com.google.android.material.card.MaterialCardView xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    app:contentPadding="5dp"
-    app:cardBackgroundColor="@color/inputBackgroundGreen"
+    android:id="@+id/itemsContainer"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:layout_margin="5dp"
+    app:cardBackgroundColor="@color/inputBackgroundGreen"
     app:cardCornerRadius="3dp"
     app:cardElevation="0dp"
-    android:layout_height="wrap_content">
+    app:contentPadding="5dp">
 
     <TextView
         android:id="@+id/categoryID"
         style="@style/TextAppearance.AppCompat.Subhead"
         android:layout_width="wrap_content"
-        android:text="Text"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Text" />
 
 </com.google.android.material.card.MaterialCardView>

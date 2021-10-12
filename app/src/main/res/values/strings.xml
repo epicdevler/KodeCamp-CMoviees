@@ -5,4 +5,6 @@
     <string name="selectMovieHint">Select movies from the categories below.
         \n
         Movies a sorted in alphabetic order.</string>
+    <string name="showing_movies_in_category">Showing movies in category  (%s)</string>
+    <string name="no_movies_for_this_category">No movies for this category (%s)</string>
 </resources>
